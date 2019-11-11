@@ -1,0 +1,34 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "c:/Users/Nick/OneDrive/Documents/Code/Arduino/PID Balance Beam Project/PID Ball Balancer CONTROLLER/.pio/build/mkr1000USB/firmware.elf",
+            "toolchainBinDir": "C:/SPB_Data/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "C:/SPB_DATA/.platformio/platforms/atmelsam/misc/svd/ATSAMD21G18A.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            },
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "c:/Users/Nick/OneDrive/Documents/Code/Arduino/PID Balance Beam Project/PID Ball Balancer CONTROLLER/.pio/build/mkr1000USB/firmware.elf",
+            "toolchainBinDir": "C:/SPB_Data/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "svdPath": "C:/SPB_DATA/.platformio/platforms/atmelsam/misc/svd/ATSAMD21G18A.svd",
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}

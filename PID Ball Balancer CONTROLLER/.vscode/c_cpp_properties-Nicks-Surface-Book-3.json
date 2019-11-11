@@ -1,0 +1,87 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "c:/Users/Nick/OneDrive/Documents/Code/Arduino/PID Balance Beam Project/PID Ball Balancer CONTROLLER/include",
+                "c:/Users/Nick/OneDrive/Documents/Code/Arduino/PID Balance Beam Project/PID Ball Balancer CONTROLLER/src",
+                "C:/SPB_DATA/.platformio/lib/Servo_ID883/src",
+                "C:/SPB_DATA/.platformio/lib/Blynk_ID415/src",
+                "C:/SPB_DATA/.platformio/lib/WiFi101_ID299/src",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/SPI",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/cores/samd",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/system/samd/CMSIS/CMSIS/Include",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/system/samd/CMSIS-Atmel/CMSIS/Device/ATMEL",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/variants/mkr1000",
+                "C:/SPB_DATA/.platformio/lib/WiFiNINA_ID5538/src",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/HID",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/I2S/src",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/SAMD_AnalogCorrection/src",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/SAMD_BootloaderUpdater/src",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/SDU/src",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/USBHost/src",
+                "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/Wire",
+                "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include",
+                "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1",
+                "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi",
+                "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include",
+                "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+                "C:/SPB_DATA/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "c:/Users/Nick/OneDrive/Documents/Code/Arduino/PID Balance Beam Project/PID Ball Balancer CONTROLLER/include",
+                    "c:/Users/Nick/OneDrive/Documents/Code/Arduino/PID Balance Beam Project/PID Ball Balancer CONTROLLER/src",
+                    "C:/SPB_DATA/.platformio/lib/Servo_ID883/src",
+                    "C:/SPB_DATA/.platformio/lib/Blynk_ID415/src",
+                    "C:/SPB_DATA/.platformio/lib/WiFi101_ID299/src",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/SPI",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/cores/samd",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/system/samd/CMSIS/CMSIS/Include",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/system/samd/CMSIS-Atmel/CMSIS/Device/ATMEL",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/variants/mkr1000",
+                    "C:/SPB_DATA/.platformio/lib/WiFiNINA_ID5538/src",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/HID",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/I2S/src",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/SAMD_AnalogCorrection/src",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/SAMD_BootloaderUpdater/src",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/SDU/src",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/USBHost/src",
+                    "C:/SPB_DATA/.platformio/packages/framework-arduinosam/libraries/__cores__/samd/Wire",
+                    "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include",
+                    "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1",
+                    "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/arm-none-eabi/include/c++/7.2.1/arm-none-eabi",
+                    "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include",
+                    "C:/SPB_DATA/.platformio/packages/toolchain-gccarmnoneeabi/lib/gcc/arm-none-eabi/7.2.1/include-fixed",
+                    "C:/SPB_DATA/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40003",
+                "ARDUINO_SAMD_MKR1000",
+                "ARDUINO_ARCH_SAMD",
+                "__SAMD21G18A__",
+                "USE_ARDUINO_MKR_PIN_LAYOUT",
+                "F_CPU=48000000L",
+                "USBCON",
+                "ARDUINO=10805",
+                "USB_VID=0x2341",
+                "USB_PID=0x804E",
+                "USB_PRODUCT=\"Arduino MKR1000\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "\"C:/SPB_Data/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe\" -mthumb -mcpu=cortex-m0plus"
+        }
+    ],
+    "version": 4
+}
