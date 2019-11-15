@@ -77,11 +77,11 @@ while True:
     serialLine = serialArduino.readline(500).strip()
     serialLine = serialLine.decode("utf-8") #decode bytes into string value and strip \r\n off
     serialValues = serialLine.split(',')
-    print(serialValues[0])
+    #print(serialValues[0]) # comment out for performance
     #only run loop if the first element is indicating the start of a data row
     if serialValues[0] == 'Start':
         serialValues.pop(0) #remove 'Start' from data since it is only an indicator
-        print(serialValues)
+        #print(serialValues) #comment out for performance
         try:
             #process string data and assign to variables to plot
             adcValue = float(serialValues[4])
@@ -111,5 +111,5 @@ while True:
         #Unfortunately this does reduce the amount of accuracy present by the graph
         #depending on the speed of this python program
         serialArduino.flushInput() 
-        print("Execute time:", round(executeTime_ms,1),"Waiting:",serialArduino.inWaiting())
+        #print("Execute time:", round(executeTime_ms,1),"Waiting:",serialArduino.inWaiting()) # comment out for performance
     
