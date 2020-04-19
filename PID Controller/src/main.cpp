@@ -15,13 +15,6 @@ float KP_MAN, KI_MAN, KD_MAN; //manual values for PID constants
 BlynkTimer timer;
 ////////////////////////////////////////////////////////////
 
-/////////////////////WifiSetup//////////////////////////////
-char ssid[]="NETGEAR39"; //Wifi name
-char pass[] = "yellowsea022"; //Wifi password
-int status = WL_IDLE_STATUS; //connection status
-WiFiClient client;
-////////////////////////////////////////////////////////////
-
 ///////////////////////Inputs/outputs///////////////////////
 int Analog_in = A0;
 Servo myservo;  // create servo object to control a servo, later attatched to D9
