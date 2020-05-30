@@ -1,7 +1,6 @@
 #include <Arduino.h>
 #include <Servo.h>
 #include <SPI.h>
-#include <WiFi101.h>
 
 #define BLYNK_PRINT SerialUSB
 #include <Blynk.h>
